@@ -11,7 +11,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="20dp"
         android:autoLink="web"
-        android:text="Client-Server=Model"
+        android:text="Client-Server-Model"
         android:textStyle="bold" />
 
     <EditText

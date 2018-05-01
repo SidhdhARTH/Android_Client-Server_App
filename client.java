@@ -15,12 +15,9 @@ public class Client extends AsyncTask<Void, Void, Void> {
 	String response = "";
 	TextView textResponse;
 
-	Client(String addr, int port, TextView textResponse) {
-		destAddress = addr;
-		destPort = port;
-		this.textResponse = textResponse;
-	}
-
+	destAddress = "127.0.0.1";
+	destPort = 9734;
+	
 	@Override
 	protected Void doInBackground(Void... arg0) {
 
